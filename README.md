@@ -23,15 +23,11 @@ Sends an HTTP GET request using HttpURLConnection
 
 How It Works
 
-1. Connects to the endpoint:
-https://jsonplaceholder.typicode.com/posts
-
+1. Connects to the endpoint
 
 2. Reads the full JSON response using BufferedReader.
 
-
 3. Parses the data into JSONArray and individual JSONObject.
-
 
 4. Prints each post’s:
 
